@@ -19,6 +19,8 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
 
 ## Pretrained models models:
-Three pretrained models based on 95th maximum principal strain of the whole brain (MPS of WB), 95th maximum principal strain of the corpus callosum(MPS of CC), and 95th peak strain of the corpus callosum (FS of CC), respectively. 
+Three pretrained models based on 95th maximum principal strain of the whole brain (MPS of WB), 95th maximum principal strain of the corpus callosum(MPS of CC), and 95th peak strain of the corpus callosum (FS of CC) were trained using all impact-strain response samples available in this study (N=3069), respectively. 
 
 ## Evaluation
+The pretrained models further were evaluated based on the rotational velocity profiles derive from the idealized impact dataset (N=1521). The example results are shown below:
+![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results.png)
