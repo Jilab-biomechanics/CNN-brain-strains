@@ -4,7 +4,7 @@ Convolutional neural network for efficient estimation of  regional brain strains
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 ## Prerequisites
 - Matlab 2017 or above
-- [Python 2.7] (https://www.anaconda.com/distribution/)
+- [Python 2.7](https://www.anaconda.com/distribution/)
 - [Scikit-Learn](https://scikit-learn.org/stable/install.html)
 - [Scipy](https://www.scipy.org/)
 ## Data preprocessing:
