@@ -15,5 +15,10 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - Shifting based on resultant peak location
 - Replicated padding 
 
-## Preprocessing demo example
+## Preprocessing demo example:
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
+
+## Pretrained models models:
+Three pretrained models based on 95th maximum principal strain of the whole brain (MPS of WB), 95th maximum principal strain of the corpus callosum(MPS of CC), and 95th peak strain of the corpus callosum (FS of CC), respectively. 
+
+## Evaluation
