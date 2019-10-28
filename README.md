@@ -14,3 +14,6 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - Conjugate axis transform
 - Shifting based on resultant peak location
 - Replicated padding 
+
+## Preprocessing example
+![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
