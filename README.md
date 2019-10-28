@@ -15,5 +15,5 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - Shifting based on resultant peak location
 - Replicated padding 
 
-## Preprocessing example
+## Preprocessing demo example
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
