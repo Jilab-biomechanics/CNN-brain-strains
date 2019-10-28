@@ -24,3 +24,5 @@ Three pretrained models based on 95th maximum principal strain of the whole brai
 ## Evaluation
 The pretrained models were further evaluated based on the additional rotational velocity profiles derive from the [idealized impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). The example testing results in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below:
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results.png)
+
+## Citation
