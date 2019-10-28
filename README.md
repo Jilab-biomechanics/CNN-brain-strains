@@ -26,3 +26,4 @@ The pretrained models were further evaluated based on the additional rotational 
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results.png)
 
 ## Citation:
+CNN-brain-strains is an open-source library and is licensed under the GNU General Public License (v3). 
