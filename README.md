@@ -20,11 +20,14 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
 
 ## Pretrained models:
-Three pretrained models based on 95th maximum principal strain of the whole brain (MPS of WB), 95th maximum principal strain of the corpus callosum(MPS of CC), and 95th peak fiber strain of the corpus callosum (FS of CC) were trained using all impact-strain response samples available in our CNN-brain-strain study (N=3069), respectively. 
+Three pretrained CNN neural network models are provided based on all of the brain response samples available in the study (N=3069). They correspond to the peak maximum principal strain (MPS) of the whole brain (WB), MPS of the corpus callosum(CC), and fiber strain (FS) of the CC, all assessed at the 95th percentile levels. 
 
-## Evaluation:
-The pretrained models were further evaluated based on the additional rotational velocity profiles derive from the [idealized impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). The example testing results in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below:
+## Additional Evaluations:
+The accuracy of the trained CNN using real-world impacts is extensively reported in the published paper. Here, we further report the CNN-estimation accuracy using a separate, [idealized rotational impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). This additional testing dataset is completely unseen by the trained CNN. The accuracy for MPS of the whole brain in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below:
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results.png)
+
+We further train the CNN using the idealized impacts (N=1521) with the same CNN architecture. The resulting 10-fold cross-validation accuracy is shown below (virtually perfect performance).
+
 
 ## License:
 CNN-brain-strains is an open-source library and is licensed under the [GNU General Public License (v3)](https://www.gnu.org/licenses/gpl-3.0.en.html). 
