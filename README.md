@@ -1,5 +1,7 @@
 # CNN-brain-strains (Work in progress)
 Convolutional neural network for efficient estimation of  regional brain strains
+
+This page will be continually updated as needed. 
 ## Authors:
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 ## Prerequisites
