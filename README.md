@@ -12,7 +12,7 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - [Tensorflow 1.4.0](https://pypi.org/project/tensorflow/1.4.0/#files)
 ## Data preprocessing:
 - Resampling the impact profile to 1 ms (temporal resolution) 
-- Conjugate axis transform
+- (Optional) conjugate axis transform
 - Shifting based on resultant peak location
 - Replicated padding 
 
