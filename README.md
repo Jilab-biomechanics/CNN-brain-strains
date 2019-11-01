@@ -19,6 +19,9 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - Replicated padding 
 
 ## Preprocessing demo example:
+We provide a data preprocessing demo in /Preprocessing folder.
+- Go to /Preprocessing
+- Run 'demo_preprocessing.m'
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
 
 ## Pretrained CNN models:
