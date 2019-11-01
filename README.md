@@ -18,7 +18,7 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - Shifting based on resultant peak location
 - Replicated padding 
 
-## Preprocessing demo example:
+## Preprocessing demo:
 We provide a data preprocessing demo in /Preprocessing folder.
 - Go to /Preprocessing
 - Run `demo_preprocessing.m`
