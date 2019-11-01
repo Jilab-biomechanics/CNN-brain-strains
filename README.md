@@ -21,7 +21,7 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 ## Preprocessing demo:
 We provide a data preprocessing demo in /Preprocessing folder.
 - Go to /Preprocessing
-- Run `demo_preprocessing.m`
+- Run `demo_preprocessing.m` in Matlab
 
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/preprocessing.png)
 
