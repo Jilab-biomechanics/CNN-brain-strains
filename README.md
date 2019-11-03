@@ -48,6 +48,7 @@ The accuracy of the trained CNN using real-world impacts is extensively reported
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results.png)
 
 When instead training the CNN using the idealized impacts (N=1521) with the same architecture, the resulting 10-fold cross-validation accuracy is shown below (virtually perfect performance).
+![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results_idealized_dataset.png)
 
 
 ## License:
