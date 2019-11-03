@@ -91,6 +91,7 @@ hold off;
 N = 1;
 pad_profile = reshape(Pad_curves, [N, 201, 3]);
 pad_profile = permute(pad_profile,[1 3 2]);
+save('Input.mat','pad_profile');
 
 %% Note:
 % The variable "pad_profile" is now ready to be used as a testing case 
