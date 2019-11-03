@@ -28,7 +28,7 @@ We provide a data preprocessing demo in /Preprocessing folder.
 ## Pretrained CNN models:
 Three pretrained CNN neural network models are provided based on all of the brain response samples available in the published study (N=3069). They correspond to the peak maximum principal strain (MPS) of the whole brain (WB), MPS of the corpus callosum (CC), and fiber strain (FS) of the CC, all assessed at the 95th percentile levels. 
 
-## Prediction demo
+## Brain Strain Prediction demo
 To use our pretrained CNN models for prediction, please check our strain prediction evaluation demo in /Strain_prediction folder
 - Go to /Strain_prediction
 - Run `python demo_evaluation.py`. 
