@@ -30,7 +30,16 @@ Three pretrained CNN neural network models are provided based on all of the brai
 
 To use our pretrained CNN models for prediction, please check our strain prediction evaluation demo in /Strain_prediction folder
 - Go to /Strain_prediction
-- Run `python demo_evaluation.py`. Notice that this demo use `Evaluation_example.mat` as example input for evaluation.
+- Run `python demo_evaluation.py`. Notice that this demo use `Evaluation_example.mat` as example input for evaluation. The output file will be saved as `Output.mat` in the /Strain_prediction folder.
+
+## Quick Run:
+If you just want to use your input profile to obtain the predicted brain strains from the CNN pretrained models 
+- Go to /Strain_prediction
+- Store your input profile as 'pad_profile' variable in Matlab (Check our `demo_preprocessing.m` for detail) and save it as `Input.mat`
+```
+python predict_all.py`
+```
+- The predicted results will be saved as in  `Output.mat`. 
 
 
 ## Additional Evaluations:
