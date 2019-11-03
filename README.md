@@ -35,9 +35,9 @@ To use our pretrained CNN models for prediction, please check our strain predict
 ## Quick Run:
 If you just want to use your input profile to obtain the predicted brain strains from the CNN pretrained models 
 - Go to /Strain_prediction
-- Store your input profile as 'pad_profile' variable in Matlab (Check our `demo_preprocessing.m` for detail) and save it as `Input.mat`
+- Store your input profile as `pad_profile` (Check our `demo_preprocessing.m` for detail) and save it as `Input.mat`
 ```
-python predict_all.py`
+python predict_all.py
 ```
 - The predicted results will be saved as in  `Output.mat`. 
 
