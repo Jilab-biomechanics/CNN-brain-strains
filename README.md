@@ -1,7 +1,8 @@
 # CNN-brain-strains (Work in progress)
-Convolutional neural network for efficient estimation of  regional brain strains
+Convolutional neural network for efficient estimation of  regional brain strains [link to published Scientific Reports paper will be added]
 
 This page will be continually updated as needed. 
+
 ## Authors:
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 ## Prerequisites
@@ -38,7 +39,7 @@ To use the pretrained CNN models for strain estimation, please check the strain 
 ## Quick Run:
 If you need to use your own rotational velocity input profile to estimate brain strains from the pretrained CNN models 
 - Go to /Strain_prediction
-- **Input**: Store your input as `pad_profile` (Check our `demo_preprocessing.m` for detail) and save it as `Input.mat`
+- **Input**: Store your input as `pad_profile` (Check `demo_preprocessing.m` for detail) and save it as `Input.mat`
 - Run `python predict_all.py`
 - **Output**: The predicted outputs will be `mps_95` (MPS of WB), `mps_cc_95` (MPS of CC) and `fs_cc_95` (FS of CC) saved in `Output.mat`. 
 - You can easily modify the programs to batch process.
