@@ -32,11 +32,11 @@ Three pretrained CNN neural network models are provided based on all of the brai
 To use the pretrained CNN models for strain estimation, please check the strain prediction evaluation demo in /Strain_prediction folder
 - Go to /Strain_prediction
 - Run `python demo_evaluation.py`. 
-- **Input**: Notice that this demo uses `Evaluation_example.mat` as an example input for evaluation. 
+- **Input**: Notice that this demo uses `Evaluation_example.mat` as an example rotational velocity profile input for evaluation. 
 - **Output**: The output file will be saved as `Output.mat` in the /Strain_prediction folder.
 
 ## Quick Run:
-If you need to use your own input profile to estimate brain strains from the pretrained CNN models 
+If you need to use your own rotational velocity input profile to estimate brain strains from the pretrained CNN models 
 - Go to /Strain_prediction
 - **Input**: Store your input as `pad_profile` (Check our `demo_preprocessing.m` for detail) and save it as `Input.mat`
 - Run `python predict_all.py`
