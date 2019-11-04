@@ -19,7 +19,7 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 - Replicated padding 
 
 ## Preprocessing demo:
-We provide a data preprocessing demo in /Preprocessing folder.
+A data preprocessing demo is provided in /Preprocessing folder.
 - Go to /Preprocessing
 - Run `demo_preprocessing.m` in Matlab
 
@@ -29,18 +29,19 @@ We provide a data preprocessing demo in /Preprocessing folder.
 Three pretrained CNN neural network models are provided based on all of the brain response samples available in the published study (N=3069). They correspond to the peak maximum principal strain (MPS) of the whole brain (WB), MPS of the corpus callosum (CC), and fiber strain (FS) of the CC, all assessed at the 95th percentile levels. 
 
 ## Strain Prediction demo:
-To use our pretrained CNN models for prediction, please check our strain prediction evaluation demo in /Strain_prediction folder
+To use the pretrained CNN models for strain estimation, please check the strain prediction evaluation demo in /Strain_prediction folder
 - Go to /Strain_prediction
 - Run `python demo_evaluation.py`. 
-- **Input**: Notice that this demo use `Evaluation_example.mat` as example input for evaluation. 
+- **Input**: Notice that this demo uses `Evaluation_example.mat` as an example input for evaluation. 
 - **Output**: The output file will be saved as `Output.mat` in the /Strain_prediction folder.
 
 ## Quick Run:
-If you just want to use your input profile to obtain the predicted brain strains from the CNN pretrained models 
+If you need to use your own input profile to estimate brain strains from the pretrained CNN models 
 - Go to /Strain_prediction
 - **Input**: Store your input as `pad_profile` (Check our `demo_preprocessing.m` for detail) and save it as `Input.mat`
 - Run `python predict_all.py`
 - **Output**: The predicted outputs will be `mps_95` (MPS of WB), `mps_cc_95` (MPS of CC) and `fs_cc_95` (FS of CC) saved in `Output.mat`. 
+- You can easily modify the programs to batch process.
 
 
 ## Additional Evaluations:
