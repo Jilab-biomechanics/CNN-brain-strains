@@ -1,7 +1,7 @@
-# CNN-brain-strains (Work in progress)
+# CNN-brain-strains
 Convolutional neural network for efficient estimation of  regional brain strains [link to published paper will be added]
 
-This page will be continually updated as needed. 
+This page will be updated as needed. 
 
 ## Authors:
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
@@ -55,8 +55,10 @@ Please cite the following studies for the model (1 and 2) and the CNN data tool 
 1. Zhao, W., Ji, S., 2019. White matter anisotropy for impact simulation and response sampling in traumatic brain injury. J. Neurotrauma 36, 250–263. doi:10.1089/neu.2018.5634
 2. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
 
-## Continual training:
-We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts for your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.  
+## Further development:
+We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts for your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.
+
+Further development of the computational data tool will expand the output variable to more brain regions of interest. 
 
 ## Additional Evaluations:
 The accuracy of the trained CNN using real-world impacts is extensively reported in the published paper. Here, we further report the CNN-estimation accuracy using a separate, [idealized rotational impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). This additional testing dataset is completely unseen by the trained CNN. The accuracy for MPS of the WB and CC in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below (dashed lines: +/- 1 RMSE):
