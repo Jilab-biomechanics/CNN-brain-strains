@@ -7,6 +7,7 @@ This page will be updated as needed.
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 
 For technical questions, contact S. Wu: swu3 AT wpi dot edu
+
 For collaboration inquries, contact S. Ji: sji AT wpi dot edu
 
 ## Disclaimer:
