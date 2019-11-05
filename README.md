@@ -1,5 +1,5 @@
 # CNN-brain-strains (Work in progress)
-Convolutional neural network for efficient estimation of  regional brain strains [link to published Scientific Reports paper will be added]
+Convolutional neural network for efficient estimation of  regional brain strains [link to published paper will be added]
 
 This page will be continually updated as needed. 
 
@@ -50,11 +50,10 @@ If you need to use your own rotational velocity input profile to estimate brain 
 - You can easily modify the programs to batch process.
 
 ## Citation:
-Please cite the following studies for the model used (1 and 2) and the CNN data tool (3) if you apply in your study:
+Please cite the following studies for the model (1 and 2) and the CNN data tool (2) if you apply in your study:
 
 1. Zhao, W., Ji, S., 2019. White matter anisotropy for impact simulation and response sampling in traumatic brain injury. J. Neurotrauma 36, 250–263. doi:10.1089/neu.2018.5634
-2. Ji, S., Zhao, W., Ford, J.C., Beckwith, J.G., Bolander, R.P., Greenwald, R.M., Flashman, L.A., Paulsen, K.D., McAllister, T.W., 2015. Group-wise evaluation and comparison of white matter fiber strain and maximum principal strain in sports-related concussion. J. Neurotrauma 32, 441–454. doi:10.1089/neu.2013.3268
-3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
+2. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
 
 ## Continual training:
 We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts for your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.  
