@@ -8,7 +8,7 @@ Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 
 ## Disclaimer:
 
-The data tool is provided AS IS and for non-commercial use only. Please use at your own risk as no responsibility is assumed or implied.
+This data tool is provided AS IS and for non-commercial use only. Please use at your own risk as no responsibility is assumed or implied.
 
 ## Prerequisites
 - System: MacOS/ Linux (e.g: Ubuntu 16.04)
@@ -20,9 +20,9 @@ The data tool is provided AS IS and for non-commercial use only. Please use at y
 - [Tensorflow 1.4.0](https://pypi.org/project/tensorflow/1.4.0/#files)
 ## Data preprocessing:
 - Resampling the impact profile to 1 ms (temporal resolution) 
-- (Optional) conjugate axis transform
-- Shifting based on resultant peak location
-- Replicated padding 
+- Conjugate axis transform (if needed)
+- Shifting based on resultant rotational velocity peak location
+- Replicated padding
 
 ## Preprocessing demo:
 A data preprocessing demo is provided in /Preprocessing folder.
@@ -50,15 +50,16 @@ If you need to use your own rotational velocity input profile to estimate brain 
 - You can easily modify the programs to batch process.
 
 ## Citation:
-Please cite the following studies for the model (1) and the CNN data tool (2) used if you apply in your study:
+Please cite the following studies for the model (Ref 1 and 2) and the CNN data tool (Ref 3) used if you apply in your study:
 
 1. Zhao, W., Ji, S., 2019. White matter anisotropy for impact simulation and response sampling in traumatic brain injury. J. Neurotrauma 36, 250–263. doi:10.1089/neu.2018.5634
-2. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
+2. Ji, S., Zhao, W., Ford, J.C., Beckwith, J.G., Bolander, R.P., Greenwald, R.M., Flashman, L.A., Paulsen, K.D., McAllister, T.W., 2015. Group-wise evaluation and comparison of white matter fiber strain and maximum principal strain in sports-related concussion. J. Neurotrauma 32, 441–454. doi:10.1089/neu.2013.3268
+3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
 
 ## Further development:
 We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts for your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.
 
-Further development of the computational data tool will expand the output variable to more brain regions of interest. 
+Further development of the computational data tool will include the expansino of output variables to more complete brain regions of interest, so that to characterize strain distribution. 
 
 ## Additional Evaluations:
 The accuracy of the trained CNN using real-world impacts is extensively reported in the published paper. Here, we further report the CNN-estimation accuracy using a separate, [idealized rotational impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). This additional testing dataset is completely unseen by the trained CNN. The accuracy for MPS of the WB and CC in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below (dashed lines: +/- 1 RMSE):
