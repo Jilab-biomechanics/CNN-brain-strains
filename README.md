@@ -6,6 +6,9 @@ This page will be updated as needed.
 ## Authors:
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 
+For technical questions, contact S. Wu: swu3 AT wpi dot edu
+For collaboration inquries, contact S. Ji: sji AT wpi dot edu
+
 ## Disclaimer:
 
 This data tool is provided AS IS and for non-commercial use only. Please use at your own risk as no responsibility is assumed or implied.
@@ -57,9 +60,9 @@ Please cite the following studies for the model (Ref 1 and 2) and the CNN data t
 3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
 
 ## Further development:
-We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts for your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.
+We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts; and (2) to allow us expanding the training dataset to further improve the CNN estimation accuracy.
 
-Further development of the computational data tool will include the expansino of output variables to more complete brain regions of interest, so that to characterize strain distribution. 
+Further development of the data tool will include the expansino of output variables to more complete brain regions of interest, so that to characterize brain strain distribution. 
 
 ## Additional Evaluations:
 The accuracy of the trained CNN using real-world impacts is extensively reported in the published paper. Here, we further report the CNN-estimation accuracy using a separate, [idealized rotational impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). This additional testing dataset is completely unseen by the trained CNN. The accuracy for MPS of the WB and CC in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below (dashed lines: +/- 1 RMSE):
