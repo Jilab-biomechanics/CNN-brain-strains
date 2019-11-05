@@ -44,6 +44,15 @@ If you need to use your own rotational velocity input profile to estimate brain 
 - **Output**: The predicted outputs will be `mps_95` (MPS of WB), `mps_cc_95` (MPS of CC) and `fs_cc_95` (FS of CC) saved in `Output.mat`. 
 - You can easily modify the programs to batch process.
 
+## Citation:
+Please cite the following studies for the model used (1 and 2) and the CNN data tool (3) if you apply in your study:
+
+1. Zhao, W., Ji, S., 2019. White matter anisotropy for impact simulation and response sampling in traumatic brain injury. J. Neurotrauma 36, 250–263. doi:10.1089/neu.2018.5634
+2. Ji, S., Zhao, W., Ford, J.C., Beckwith, J.G., Bolander, R.P., Greenwald, R.M., Flashman, L.A., Paulsen, K.D., McAllister, T.W., 2015. Group-wise evaluation and comparison of white matter fiber strain and maximum principal strain in sports-related concussion. J. Neurotrauma 32, 441–454. doi:10.1089/neu.2013.3268
+3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
+
+## Continual training:
+Please send us head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate with the directly simulated counterparts with your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.  
 
 ## Additional Evaluations:
 The accuracy of the trained CNN using real-world impacts is extensively reported in the published paper. Here, we further report the CNN-estimation accuracy using a separate, [idealized rotational impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). This additional testing dataset is completely unseen by the trained CNN. The accuracy for MPS of the WB and CC in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below (dashed lines: +/- 1 RMSE):
@@ -52,8 +61,8 @@ The accuracy of the trained CNN using real-world impacts is extensively reported
 When instead training the CNN using the idealized impacts (N=1521) with the corresponding pretrained CNN models as initial weights for intialization, the resulting 10-fold cross-validation accuracy is shown below (virtually perfect performance).
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results_idealized_dataset.png)
 
-### Acknowledgment:
-We are grateful 
+### Acknowledgement
+Funding is provided by the NIH Grant R01 NS092853 and the Ford University Research Program. The authors are grateful to the National Football League (NFL) Committee on Mild Traumatic Brain Injury (MTBI) and Biokinetics and Associates Ltd. for providing the reconstructed head impact data. They also thank Dr. David Camarillo at Stanford University and Dr. Adam Bartsch at Prevent Biometrics for sharing head impact data. The Titan X Pascal GPU used in this work was donated by the NVIDIA Corporation. 
 
 ### License:
 CNN-brain-strains is an open-source library and is licensed under the [GNU General Public License (v3)](https://www.gnu.org/licenses/gpl-3.0.en.html). 
