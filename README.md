@@ -6,7 +6,7 @@ This page will be continually updated as needed.
 ## Authors:
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 
-### Disclaimer:
+## <fontcolor=red> Disclaimer:
 The data tool is provided AS IS and for non-commercial use only. Please use at your own risk as no responsibility is assumed or implied.
 
 ## Prerequisites
