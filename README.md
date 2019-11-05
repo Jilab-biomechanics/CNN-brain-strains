@@ -5,6 +5,10 @@ This page will be continually updated as needed.
 
 ## Authors:
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
+
+### Disclaimer:
+The data tool is provided for non-commercial use only and AS IS -- no responsibilities of whatever kind is assumed or implied. Please use at your own risk. 
+
 ## Prerequisites
 - System: MacOS/ Linux (e.g: Ubuntu 16.04)
 - Matlab 2017 or above
@@ -52,7 +56,7 @@ Please cite the following studies for the model used (1 and 2) and the CNN data 
 3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
 
 ## Continual training:
-Please send us head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate with the directly simulated counterparts with your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.  
+We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts for your data; and (2) to allow us expand the training dataset to further improve the CNN estimation accuracy.  
 
 ## Additional Evaluations:
 The accuracy of the trained CNN using real-world impacts is extensively reported in the published paper. Here, we further report the CNN-estimation accuracy using a separate, [idealized rotational impact dataset](https://link.springer.com/article/10.1007%2Fs10439-017-1888-3) (N=1521). This additional testing dataset is completely unseen by the trained CNN. The accuracy for MPS of the WB and CC in terms of coefficient of determination (R^2) and root mean squared error (RMSE) are shown below (dashed lines: +/- 1 RMSE):
