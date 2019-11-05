@@ -50,7 +50,7 @@ If you need to use your own rotational velocity input profile to estimate brain 
 - You can easily modify the programs to batch process.
 
 ## Citation:
-Please cite the following studies for the model (1 and 2) and the CNN data tool (2) if you apply in your study:
+Please cite the following studies for the model (1) and the CNN data tool (2) used if you apply in your study:
 
 1. Zhao, W., Ji, S., 2019. White matter anisotropy for impact simulation and response sampling in traumatic brain injury. J. Neurotrauma 36, 250–263. doi:10.1089/neu.2018.5634
 2. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
