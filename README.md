@@ -10,10 +10,6 @@ For technical questions, contact S. Wu: swu3 AT wpi dot edu
 
 For collaboration inquries, contact S. Ji: sji AT wpi dot edu
 
-## Disclaimer:
-
-This data tool is provided AS IS. Please use at your own risk as no responsibility is assumed or implied.
-
 ## Prerequisites
 - System: MacOS/ Linux (e.g: Ubuntu 16.04)
 - Matlab 2017 or above
