@@ -65,7 +65,7 @@ The accuracy of the trained CNN using real-world impacts is extensively reported
 When instead training the CNN using the idealized impacts (N=1521) with the corresponding pretrained CNN models as initial weights for intialization, the resulting 10-fold cross-validation accuracy is shown below (virtually perfect performance).
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results_idealized_dataset.png)
 
-### Acknowledgement
+### Acknowledgement:
 Funding is provided by the NIH Grant R01 NS092853 and the Ford University Research Program. The authors are grateful to the National Football League (NFL) Committee on Mild Traumatic Brain Injury (MTBI) and Biokinetics and Associates Ltd. for providing the reconstructed head impact data. They also thank Dr. David Camarillo at Stanford University and Dr. Adam Bartsch at Prevent Biometrics for sharing head impact data. The Titan X Pascal GPU used in this work was donated by the NVIDIA Corporation. 
 
 ### License:
