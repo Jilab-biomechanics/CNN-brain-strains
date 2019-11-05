@@ -7,7 +7,7 @@ This page will be continually updated as needed.
 Shaoju Wu, Wei Zhao, Kianoosh Ghaz, and Songbai Ji
 
 ### Disclaimer:
-The data tool is provided for non-commercial use only and AS IS -- no responsibilities of whatever kind is assumed or implied. Please use at your own risk. 
+The data tool is provided AS IS and for non-commercial use only. Please use at your own risk as no responsibility is assumed or implied.
 
 ## Prerequisites
 - System: MacOS/ Linux (e.g: Ubuntu 16.04)
