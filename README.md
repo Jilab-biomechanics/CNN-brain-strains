@@ -52,6 +52,8 @@ The accuracy of the trained CNN using real-world impacts is extensively reported
 When instead training the CNN using the idealized impacts (N=1521) with the corresponding pretrained CNN models as initial weights for intialization, the resulting 10-fold cross-validation accuracy is shown below (virtually perfect performance).
 ![](https://github.com/Jilab-biomechanics/CNN-brain-strains/blob/master/figures/Testing_results_idealized_dataset.png)
 
+# Acknowledgment:
+We are grateful 
 
 ## License:
 CNN-brain-strains is an open-source library and is licensed under the [GNU General Public License (v3)](https://www.gnu.org/licenses/gpl-3.0.en.html). 
