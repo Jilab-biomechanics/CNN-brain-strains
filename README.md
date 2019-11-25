@@ -1,5 +1,5 @@
 # CNN-brain-strains
-Convolutional neural network for efficient estimation of  regional brain strains [link](https://www.nature.com/articles/s41598-019-53551-1)
+Convolutional neural network for efficient estimation of regional brain strains [link of the paper](https://www.nature.com/articles/s41598-019-53551-1)
 
 This page will be updated as needed. 
 
