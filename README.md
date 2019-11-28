@@ -54,7 +54,7 @@ Please cite the following studies for the model (Ref 1 and 2) and the CNN data t
 
 1. Zhao, W., Ji, S., 2019. White matter anisotropy for impact simulation and response sampling in traumatic brain injury. J. Neurotrauma 36, 250–263. [doi:10.1089/neu.2018.5634 **front cover**](https://www.liebertpub.com/doi/abs/10.1089/neu.2018.5634) 
 2. Ji, S., Zhao, W., Ford, J.C., Beckwith, J.G., Bolander, R.P., Greenwald, R.M., Flashman, L.A., Paulsen, K.D., McAllister, T.W., 2015. Group-wise evaluation and comparison of white matter fiber strain and maximum principal strain in sports-related concussion. J. Neurotrauma 32, 441–454. [doi:10.1089/neu.2013.3268 **front cover**](https://www.liebertpub.com/doi/10.1089/neu.2013.3268)
-3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports (Accepeted). 
+3. Wu, S., Zhao, W., Ghazi, K., Ji, S. 2019. Convolutional neural network for efficient estimation of  regional brain strains. Scientific Reports 9, 17326. [doi:10.1038/s41598-019-53551-1](https://www.nature.com/articles/s41598-019-53551-1)
 
 ## Further development:
 We would appreciate it if you can send us sample head impact kinematics data so that: (1) to verify that the CNN-estimated strains are sufficiently accurate relative to the directly simulated counterparts; and (2) to allow us expanding the training dataset to further improve the CNN estimation accuracy.
