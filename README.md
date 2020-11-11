@@ -1,5 +1,6 @@
 # CNN-brain-strains
 Convolutional neural network for efficient estimation of regional brain strains [[link of the paper]](https://www.nature.com/articles/s41598-019-53551-1)
+
 The demo for "Instantaneous Whole-brain Strain Estimation in Dynamic Head Impact" is provided here [[directory link]](https://github.com/Jilab-biomechanics/CNN-estimation-of-brain-strain-distribution)
 
 This page will be updated as needed. 
